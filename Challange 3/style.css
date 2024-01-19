@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'prata', serif;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+h3{
+    font-family: 'prata', serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h6{
+    padding: 22px;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+}
+
+a{
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    padding: 6px 22px 6px 0;
+    border-bottom: 1px solid #dfdfdf;
+    list-style: none;
+}
+
+.main-section{
+    padding: 20px;           
+}
+
+.image-container{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+body.borghese .lista li a:visited{
+    color: #37534a;
+}
+body.torlonia .lista li a:visited{
+    color: #89c2e4 ;
+}
+body.ada .lista li a:visited{
+    color: #dfb913;
+}
+body.pamphilj .lista li a:visited{
+    color: #4677d1;
+}
+body.acquedotti .lista li a:visited{
+    color: #cecb27;
+}
+body.celimontana .lista li a:visited{
+    color: #37533b;
+}
+
+div.borghese{
+    background-image: url(https://www.turismoroma.it/sites/default/files/Villa-Borghese.jpg);
+}
+div.torlonia{
+    background-image: url(https://www.turismoroma.it/sites/default/files/villatorlonia.jpg);
+}
+div.ada{
+    background-image: url(https://www.turismoroma.it/sites/default/files/villaada.jpg);
+}
+div.pamphilj{
+    background-image: url(https://www.turismoroma.it/sites/default/files/villa%20pamphiljCOP.jpg);
+}
+div.acquedotti{
+    background-image: url(https://www.turismoroma.it/sites/default/files/Parco%20Acquedotti3_Trim_1920x1080.jpg);
+}
+div.celimontana{
+    background-image: url(https://www.turismoroma.it/sites/default/files/Villa%20Celimontana%40Marina.jpg);
+}
+
+h6.borghese{
+    background:linear-gradient(120deg, #37534a, rgb(21, 185, 35));
+}
+h6.torlonia{
+    background:linear-gradient(120deg, #89c2e4, rgb(77, 105, 11));
+}
+h6.ada{
+    background:linear-gradient(120deg, #dfb913, rgb(21, 185, 35));
+}
+h6.pamphilj{
+    background:linear-gradient(120deg, #4677d1, rgb(29, 105, 11));
+}
+h6.acquedotti{
+    background:linear-gradient(120deg, #cecb27, rgb(204, 235, 253));
+}
+h6.celimontana{
+    background:linear-gradient(120deg, #37533b, rgb(202, 173, 135));
+}
